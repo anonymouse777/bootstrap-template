@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+}
+/* margin and padding for links (login sign up) col-lg-6 */
+#signup-login{
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+/* setting ul class(.list-inline) marging  */
+.list-inline{
+	margin: 0px 0px 5px 0px;
+}
+/* setting links color */
+.links-color{
+	color: #9f9f9f;
+}
+/* setting links hover property  */
+.links-color:hover{
+	color: #9f9f9f;
+	font-weight: bold;
+}
+/* setting links and icon row background color */
+#links-icon-row{
+	padding-top: 10px;
+	padding-bottom: 5px;
+	background-color: #2e2e2e;
+}
+/* setting icons links color */
+.icon-colors{
+	color: white;
+	background-color: #787878;
+}
+.mylinks{
+	padding: 2px 5px 2px 5px;
+	background-color: #787878;
+	border-radius: 15px;
+}
+
+.nav-link{
+	padding: 0px 10px !important;
+	z-index: 2;
+	position: relative;
+/*	padding-bottom: 3px !important;*/
+}
+#horizontal-break{
+	margin: 0px 0px 0px 0px;
+	height: 2px;
+	position: absolute;
+	background-color: #f1f1f1;
+
+}
+.nav-link:active{
+	border-bottom: 2px solid blue;
+	z-index: 2;
+}
