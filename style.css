@@ -24,6 +24,7 @@ body{
 	padding-top: 10px;
 	padding-bottom: 5px;
 	background-color: #2e2e2e;
+	padding-left: 20px;
 }
 /* setting icons links color */
 .icon-colors{
@@ -52,4 +53,114 @@ body{
 .nav-link:active{
 	border-bottom: 2px solid blue;
 	z-index: 2;
+}
+/* bottom information like about us etc style classes */
+.about-us-image{
+	height: 90px;
+	width: 215px;
+	background-color: blue;
+}
+.about-us-text{
+	color: #666;
+	font-size: 14px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.list-group-item{
+	padding: 0px 0px 0px 5px !important;
+	background-color: #1a1a1a !important;
+	border-color: white;
+}
+.contact-links{
+	font-size: 13px;
+	color: #09f;
+	margin-bottom: 5px;
+}
+.about-quick-contact{
+	background-color: #1a1a1a;
+	border-top: 5px solid black;
+}
+.main-heading-for-cloumn{
+	color: #ffffff;
+	margin: 20px 0px 10px 0px;
+}
+.col-3{
+	padding: 0px 5px 20px 20px !important;
+}
+.address-heading{
+	color: #666;
+	margin-bottom: 0px !important;
+}
+.address-description{
+	color: #666;
+	font-size: 11px;
+	margin-bottom: 5px !important;
+}
+.latest-blog-paragraph{
+	color: #666;
+	font-size: 13px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+#contact-us-form{
+	margin-right: 20px;
+}
+.form-control{
+	background-color: #232323 !important;
+	color: #989898;
+	border-color: #232323 !important;
+}
+.text-message{
+	resize: none;
+}
+.form-submit-button{
+	padding: 5px 5px !important;
+}
+/* page footer  */
+.page-footer{
+	background-color: #222222;
+	border-top: 1px solid #2d2d2d;
+	border-bottom: 2px solid #2d2d2d;
+	border-color: #2d2d2d;
+	padding: 15px 0px 15px 0px;
+	color: #666666;
+	margin: 0px 20px 0px 20px;
+}
+.footer-text{
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+/* contact us div below picture of laptop, tab and mobile */
+.contact-us-div-below-picture{
+	background-color: #e0e0e0;
+	border-left: 5px solid #0099ff;
+	padding: 0px;
+}
+.heading-text{
+	font-size: 42px;
+	margin-bottom: 0px;
+	color: #333;
+}
+.simple-text{
+	font-size: 20px;
+	margin-top: -10px !important;
+	margin-bottom: 20px;
+}
+.button-contact-us{
+	margin-top: 30px !important;
+	font-size: 26px !important;
+	padding: 10px 5px;
+	color: #d1b7b7 !important;
+}
+/* image div */
+.image-div{
+	height: 500px;
+	overflow-y: auto;
+}
+.heading-below-picture{
+	color: #0099ff;
+}
+.four-paragraph{
+	color: #666;
+	margin-bottom: 20px;
 }
