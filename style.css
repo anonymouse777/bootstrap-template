@@ -15,10 +15,10 @@ body{
 	color: #9f9f9f;
 }
 /* setting links hover property  */
-.links-color:hover{
+/*.links-color:hover{
 	color: #9f9f9f;
 	font-weight: bold;
-}
+}*/
 /* setting links and icon row background color */
 #links-icon-row{
 	padding-top: 10px;
@@ -36,7 +36,10 @@ body{
 	background-color: #787878;
 	border-radius: 15px;
 }
-
+/* setting icons hover property to change the backgroung colors of icons to red. */
+.mylinks:hover, .icon-colors:hover {
+	background-color: red;
+}
 .nav-link{
 	padding: 0px 10px !important;
 	z-index: 2;
@@ -48,8 +51,7 @@ body{
 	height: 2px;
 	position: absolute;
 	background-color: #f1f1f1;
-
-}
+}	
 .nav-link:active{
 	border-bottom: 2px solid blue;
 	z-index: 2;
