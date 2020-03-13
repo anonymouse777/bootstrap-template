@@ -37,7 +37,7 @@ body{
 	border-radius: 15px;
 }
 /* setting icons hover property to change the backgroung colors of icons to red. */
-.mylinks:hover {
+.mylinks:active {
 	background-color: red;
 }
 /* below first row of the page */
@@ -50,19 +50,15 @@ body{
 	color: #2e2e2e;
 /*	padding-bottom: 3px !important;*/
 }
-.nav-link:hover{
+.nav-link:active{
 	color: #9f9f9f;
+	border-bottom: 3px solid blue;
 }
 
 #horizontal-break{
 	margin: 0px;
-	height: 5px;
+	height: 3px;
 	background-color: #f1f1f1;
-}
-
-.nav-link:active{
-	border-bottom: 5px solid blue;
-	color: #9f9f9f;
 }
 
 /* nobody's fool div */
@@ -199,6 +195,7 @@ body{
 }
 .heading-below-picture{
 	color: #0099ff;
+	margin-bottom: 3px;
 }
 .four-paragraph{
 	color: #666;
@@ -239,4 +236,23 @@ body{
 }
 .set-padding-for-slider-outer-div{
 	padding: 0px 0px !important;
+}
+#slider-heading-div{
+	margin-top: 130px;
+}
+#slider-text-button{
+	font-family: Times New Roman !important;
+}
+#slider-indicators > li{
+	border-radius: 50%;
+	height: 15px;
+	width: 15px;
+	background-color: black;
+	border: 2px solid black !important;
+}
+.carousel-indicators .active{
+	background-color: #333333 !important;
+}
+#slider-indicators{
+	margin: 0px 450px 0px 0px;
 }
