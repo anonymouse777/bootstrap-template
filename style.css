@@ -19,6 +19,7 @@ body{
 	color: #9f9f9f;
 	font-weight: bold;
 }*/
+
 /* setting links and icon row background color */
 #links-icon-row{
 	padding-top: 10px;
@@ -29,7 +30,6 @@ body{
 /* setting icons links color */
 .icon-colors{
 	color: white;
-	background-color: #787878;
 }
 .mylinks{
 	padding: 2px 5px 2px 5px;
@@ -37,25 +37,63 @@ body{
 	border-radius: 15px;
 }
 /* setting icons hover property to change the backgroung colors of icons to red. */
-.mylinks:hover, .icon-colors:hover {
+.mylinks:hover {
 	background-color: red;
 }
+/* below first row of the page */
+
+
 .nav-link{
-	padding: 0px 10px !important;
-	z-index: 2;
-	position: relative;
+	padding: 0px 10px 0px 0px !important;
+	font-family: Times New Roman !important;
+	font-size: 18px;
+	color: #2e2e2e;
 /*	padding-bottom: 3px !important;*/
 }
-#horizontal-break{
-	margin: 0px 0px 0px 0px;
-	height: 2px;
-	position: absolute;
-	background-color: #f1f1f1;
-}	
-.nav-link:active{
-	border-bottom: 2px solid blue;
-	z-index: 2;
+.nav-link:hover{
+	color: #9f9f9f;
 }
+
+#horizontal-break{
+	margin: 0px;
+	height: 5px;
+	background-color: #f1f1f1;
+}
+
+.nav-link:active{
+	border-bottom: 5px solid blue;
+	color: #9f9f9f;
+}
+
+/* nobody's fool div */
+.nobodys-fool-heading{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	font-size: 42px;
+	font-family: Times New Roman !important;
+}
+.nobodys-fool-text{
+	margin-top: 0px;
+	font-size: 16px;
+	font-family: Times New Roman !important;
+	color: #999999;
+}
+.button-font-family{
+	font-family: Times New Roman !important;
+	border-radius: 10px !important;
+}
+#nobodys-fool-form{
+	margin-top: 55px;
+}
+#nobodys-fool-form-text-field{
+	background-color: #f1f1f1;
+	font-family: Times New Roman !important;
+	border-style: solid;
+	border-color: #f1f1f1;
+	border-radius: 10px;
+	padding: 5px;
+}
+
 /* bottom information like about us etc style classes */
 .about-us-image{
 	height: 90px;
@@ -164,5 +202,41 @@ body{
 }
 .four-paragraph{
 	color: #666;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+}
+.four-div-padding{
+	padding-top: 25px;
+}
+/* image slider  */
+.slider-outer-div{
+	background-color: #e9e9e9;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0px;
+}
+.slider-second-outer-div{
+	background-color: #f1f1f1;
+	margin: 0px;
+	overflow-y: auto;
+}
+.slider-heading{
+	font-family: Times New Roman !important;
+	font-size: 34px !important;
+	color: #333;
+}
+.slider-text{
+	font-family: Times New Roman !important;
+	color: #666;
+	font-size: 18px;
+/*	padding-right: 30px;*/
+}
+.slider-div{
+	width: 550px;
+	height: 440px;
+	background-color: #333;
+	margin-right: 0px;
+	margin-right: 20px;
+}
+.set-padding-for-slider-outer-div{
+	padding: 0px 0px !important;
 }
