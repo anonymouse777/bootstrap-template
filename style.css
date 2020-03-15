@@ -13,6 +13,7 @@ body{
 /* setting links color */
 .links-color{
 	color: #9f9f9f;
+	font-size: 14px;
 }
 /* setting links hover property  */
 /*.links-color:hover{
@@ -45,20 +46,32 @@ body{
 
 .nav-link{
 	padding: 0px 10px 0px 0px !important;
-	font-family: Times New Roman !important;
-	font-size: 18px;
+	font-family: Times New Roman;
+	font-size: 16px;
 	color: #2e2e2e;
+	position: relative;
 /*	padding-bottom: 3px !important;*/
 }
-.nav-link:active{
-	color: #9f9f9f;
-	border-bottom: 3px solid blue;
+.nav-link::after{
+	width: 100%;
+    height: 3px;
+    background-color: blue;
+    content: '';
+    display: none;
+    position: absolute;
+    /*left: 0;*/
+    bottom: -3px;
+    z-index: 2
+}
+.nav-link:active::after{
+	display: block;
 }
 
 #horizontal-break{
 	margin: 0px;
 	height: 3px;
 	background-color: #f1f1f1;
+/*	z-index: -1 !important;*/
 }
 
 /* nobody's fool div */
@@ -173,12 +186,12 @@ body{
 	padding: 0px;
 }
 .heading-text{
-	font-size: 42px;
+	font-size: 36px;
 	margin-bottom: 0px;
 	color: #333;
 }
 .simple-text{
-	font-size: 20px;
+	font-size: 18px;
 	margin-top: -10px !important;
 	margin-bottom: 20px;
 }
@@ -190,8 +203,7 @@ body{
 }
 /* image div */
 .image-div{
-	height: 500px;
-	overflow-y: auto;
+	height: auto;
 }
 .heading-below-picture{
 	color: #0099ff;
@@ -203,6 +215,7 @@ body{
 }
 .four-div-padding{
 	padding-top: 25px;
+	overflow: visible;
 }
 /* image slider  */
 .slider-outer-div{
