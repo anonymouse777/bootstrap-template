@@ -78,12 +78,13 @@ html, body {
 	margin: 0px;
 	height: 3px;
 	background-color: #f1f1f1;
-/*	z-index: -1 !important;*/
+}
+#padding-for-horizontal-break{
+	padding: 0px 20px 0px 20px;
 }
 
 /* nobody's fool div */
 .nobodys-fool-heading{
-	/*margin-top: 20px;*/
 	margin-bottom: 0px;
 	font-size: 42px;
 	font-family: Times New Roman !important;
@@ -98,9 +99,7 @@ html, body {
 	font-family: Times New Roman !important;
 	border-radius: 10px !important;
 }
-/*#nobodys-fool-form{
-	margin-top: 55px;
-}*/
+
 #nobodys-fool-form-text-field{
 	background-color: #f1f1f1;
 	font-family: Times New Roman !important;
@@ -140,9 +139,6 @@ html, body {
 	color: #ffffff;
 	margin: 20px 0px 10px 0px;
 }
-/*.col-3{
-	padding: 0px 5px 20px 20px !important;
-}*/
 .address-heading{
 	color: #666;
 	margin-bottom: 0px !important;
@@ -190,7 +186,7 @@ html, body {
 .contact-us-div-below-picture{
 	background-color: #e0e0e0;
 	border-left: 5px solid #0099ff;
-	padding: 0px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
 }
 .heading-text{
 	font-size: 36px;
@@ -203,7 +199,6 @@ html, body {
 	margin-bottom: 20px;
 }
 .button-contact-us{
-	/*margin-top: 30px !important;*/
 	font-size: 26px !important;
 	padding: 10px 5px;
 	color: #d1b7b7 !important;
@@ -245,7 +240,6 @@ html, body {
 	font-family: Times New Roman !important;
 	color: #666;
 	font-size: 18px;
-/*	padding-right: 30px;*/
 }
 .slider-div{
 	width: 550px;
@@ -289,6 +283,8 @@ html, body {
 		font-size: 16px !important;
 		padding: 0px 0px;
 	}
+}
+@media screen and (max-width: 768px){
 	.heading-text{
 		font-size: 18px;
 		margin-bottom: 0px;
@@ -299,5 +295,26 @@ html, body {
 		margin-top: 0px !important;
 		margin-bottom: 0px;
 	}
-
+}
+.spacing-for-navbar{
+	padding: 10px 0px 0px 20px !important;
+}
+.nav-link-padding{
+	padding-right: 0px !important;
+	margin-right: 20px !important;
+}
+@media screen and (max-width: 992px){
+	#horizontal-break{
+		display: none;
+	}
+	.nav-link::after{
+		background-color: #2e2e2e;
+	}
+	.nav-link:active{
+		background-color: #2e2e2e;
+		color: white !important;
+	}
+}
+.navbar-column-div{
+	padding: 0px 0px !important;
 }
