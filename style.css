@@ -1,6 +1,7 @@
-body{
-	background-color: black;
+html, body {
+  overflow-x: hidden;
 }
+
 /* margin and padding for links (login sign up) col-lg-6 */
 #signup-login{
 	padding: 0px 0px 0px 0px;
@@ -27,6 +28,12 @@ body{
 	padding-bottom: 5px;
 	background-color: #2e2e2e;
 	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#icons-list{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
 }
 /* setting icons links color */
 .icon-colors{
@@ -76,7 +83,7 @@ body{
 
 /* nobody's fool div */
 .nobodys-fool-heading{
-	margin-top: 20px;
+	/*margin-top: 20px;*/
 	margin-bottom: 0px;
 	font-size: 42px;
 	font-family: Times New Roman !important;
@@ -91,9 +98,9 @@ body{
 	font-family: Times New Roman !important;
 	border-radius: 10px !important;
 }
-#nobodys-fool-form{
+/*#nobodys-fool-form{
 	margin-top: 55px;
-}
+}*/
 #nobodys-fool-form-text-field{
 	background-color: #f1f1f1;
 	font-family: Times New Roman !important;
@@ -133,9 +140,9 @@ body{
 	color: #ffffff;
 	margin: 20px 0px 10px 0px;
 }
-.col-3{
+/*.col-3{
 	padding: 0px 5px 20px 20px !important;
-}
+}*/
 .address-heading{
 	color: #666;
 	margin-bottom: 0px !important;
@@ -183,7 +190,7 @@ body{
 .contact-us-div-below-picture{
 	background-color: #e0e0e0;
 	border-left: 5px solid #0099ff;
-	padding: 0px;
+	padding: 0px 0px 10px 0px;
 }
 .heading-text{
 	font-size: 36px;
@@ -196,7 +203,7 @@ body{
 	margin-bottom: 20px;
 }
 .button-contact-us{
-	margin-top: 30px !important;
+	/*margin-top: 30px !important;*/
 	font-size: 26px !important;
 	padding: 10px 5px;
 	color: #d1b7b7 !important;
@@ -247,16 +254,15 @@ body{
 	margin-right: 0px;
 	margin-right: 20px;
 }
+
 .set-padding-for-slider-outer-div{
 	padding: 0px 0px !important;
 }
-#slider-heading-div{
-	margin-top: 130px;
-}
+
 #slider-text-button{
 	font-family: Times New Roman !important;
 }
-#slider-indicators > li{
+#round-buttons > li{
 	border-radius: 50%;
 	height: 15px;
 	width: 15px;
@@ -266,6 +272,32 @@ body{
 .carousel-indicators .active{
 	background-color: #333333 !important;
 }
-#slider-indicators{
+#round-buttons{
 	margin: 0px 450px 0px 0px;
+}
+
+@media screen and (max-width: 576px){
+	.slider-div{
+		width: auto;
+		height: auto;
+		margin-right: 0px;
+	}
+	#round-buttons{
+		margin: 0px 0px 0px 0px !important;
+	}
+	.button-contact-us{
+		font-size: 16px !important;
+		padding: 0px 0px;
+	}
+	.heading-text{
+		font-size: 18px;
+		margin-bottom: 0px;
+		font-weight: bold;
+	}
+	.simple-text{
+		font-size: 14px;
+		margin-top: 0px !important;
+		margin-bottom: 0px;
+	}
+
 }
