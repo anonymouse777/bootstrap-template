@@ -267,10 +267,13 @@ html, body {
 	background-color: #333333 !important;
 }
 #round-buttons{
-	margin: 0px 450px 0px 0px;
+	margin: 0px ;
+	margin-left: 20px;
+	left: 0;
+	right: inherit;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 776px){
 	.slider-div{
 		width: auto;
 		height: auto;
@@ -296,12 +299,14 @@ html, body {
 		margin-bottom: 0px;
 	}
 }
+#mybutton{
+	margin-left: 20px;
+}
 .spacing-for-navbar{
-	padding: 10px 0px 0px 20px !important;
+	padding: 10px 0px 0px 0px !important;
 }
 .nav-link-padding{
 	padding-right: 0px !important;
-	margin-right: 20px !important;
 }
 @media screen and (max-width: 992px){
 	#horizontal-break{
@@ -309,6 +314,8 @@ html, body {
 	}
 	.nav-link::after{
 		background-color: #2e2e2e;
+		height: 0;
+		margin-right: 0px !important;
 	}
 	.nav-link:active{
 		background-color: #2e2e2e;
