@@ -11,6 +11,9 @@ html, body {
 .list-inline{
 	margin: 0px 0px 5px 0px;
 }
+.list-inline-item{
+	margin-right: 0px !important;
+}
 /* setting links color */
 .links-color{
 	color: #9f9f9f;
@@ -268,8 +271,8 @@ html, body {
 }
 #round-buttons{
 	margin: 0px ;
-	margin-left: 20px;
-	left: 0;
+/*	margin-left: 20px;*/
+	left: 20px !important;
 	right: inherit;
 }
 
@@ -303,10 +306,11 @@ html, body {
 	margin-left: 20px;
 }
 .spacing-for-navbar{
-	padding: 10px 0px 0px 0px !important;
+	padding: 10px 0px 0px 20px !important;
 }
 .nav-link-padding{
 	padding-right: 0px !important;
+	margin-right: 10px !important;
 }
 @media screen and (max-width: 992px){
 	#horizontal-break{
@@ -320,6 +324,13 @@ html, body {
 	.nav-link:active{
 		background-color: #2e2e2e;
 		color: white !important;
+	}
+	.spacing-for-navbar{
+		padding: 10px 0px 0px 0px !important;
+	}
+	.nav-link-padding{
+		padding-right: 0px !important;
+		margin-right: 0px !important;
 	}
 }
 .navbar-column-div{
